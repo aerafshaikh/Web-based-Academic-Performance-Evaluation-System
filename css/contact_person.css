@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFE7CA;
+}
+
+header {
+
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #cae2ff;
+    border-bottom: solid rgb(109, 206, 223);
+}
+
+
+
+
+ol {
+    float: left;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+ol li {
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+ul li {
+    display: inline-block;
+    font-family: cursive;
+}
+
+ul li a {
+    font-size: 20px;
+    padding: 8px 30px;
+
+    color: black;
+
+}
+
+ul li a:hover {
+    color: rgb(32, 146, 146);
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    width: 900px;
+    height: 200px;
+    text-shadow: 5px 5px 20px black;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    text-align: center;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+   
+    border-bottom: 1px solid #ddd;
+    text-shadow: 5px 5px 20px black;
+}
+
+#header {
+    background-color: rgb(233, 211, 106);
+   
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+   
+    padding: 12px 0px;
+    text-shadow: 5px 5px 20px black;
+}
+
+tr:hover {
+    background-color: rgb(233, 211, 106);
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.delete{
+    text-decoration: none;
+    background-color:#ff9933;
+    text-shadow: 5px 5px 20px black;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:9px;
+    border:2px ;
+    padding: 5px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+}
+
+.delete:hover{
+    background-color: antiquewhite;
+    transition: 0.25s ease;
+}  
+
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}

@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFE7CA;
+}
+
+header {
+
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #cae2ff;
+    border-bottom: solid rgb(109, 206, 223);
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    width: 96px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+
+ol {
+    float: left;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+ol li {
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-family: cursive;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    font-size: 20px;
+    padding: 8px 30px;
+
+    color: black;
+
+}
+
+ul li a:hover {
+    color: rgb(32, 146, 146);
+}
+
+/*ul li a:hover {
+color: rgb(233, 211, 106);
+}*/
+
+table {
+    background-color: rgba(232, 236, 232, 0.836);
+    /* position: absolute;
+    left: 50%;
+    top: 50%; */
+    display: block;
+    margin: 20px auto;
+    /* transform: translate(-50%, -50%); */
+    border-collapse: collapse;
+    width: 1200px;
+    height: auto;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 100px;
+}
+
+#header {
+    background-color: rgb(233, 211, 106);
+    color: #fff;
+}
+
+
+
+/* tr:hover {
+    background-color: rgb(233, 211, 106);
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+} */
+
+
+.update{
+    text-decoration: none;
+    background-color: #ff9933;
+    text-shadow: 5px 5px 20px black;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:9px;
+    border:2px;
+    padding: 5px;
+    outline:none;
+    color:#f5f5f5;
+    cursor:pointer;
+    transition:0.25px;
+}
+
+.update:hover{
+    background-color: #3BAF9F;
+    transition: 0.25s ease;
+}  
+
+.delete{
+    text-decoration: none;
+    background-color:#ff9933;
+    text-shadow: 5px 5px 20px black;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:9px;
+    border:2px ;
+    padding: 5px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+}
+
+.delete:hover{
+    background-color: red;
+    transition: 0.25s ease;
+}  
+
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}
