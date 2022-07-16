@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin's Page</title>
+    <link rel="stylesheet" href="css/teacher.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header">
+    <ol> 
+    <li>ACADEMIC PERFORMANCE EVALUATION SYSTEM</li>
+    </ol>
+      <ul> 
+        <li><a href="admin_login_main.html"><u>Previous Page</u></a></li>
+      </ul>
+    </div>
+</header>
+
+	<div class="container">
+    <img style="width: 100px;" src="https://i.pinimg.com/originals/19/46/9a/19469aed7f222d6009f48158a682bb9c.png">
+      <h2>Teacher's Section</h2>
+      <button onclick="teacherList_fn()">Teacher's List </button>
+      <button onclick="addTeacher_fn()">Add Teacher </button>
+      
+    </div>
+
+    <script>
+      function teacherList_fn(){
+        document.location.href = "teacher_list.php"
+      }
+    </script>
+
+<script>
+  function addTeacher_fn(){
+    document.location.href = "add_teacher.php"
+  }
+</script>
+
+    
+
+</body>
+</html>

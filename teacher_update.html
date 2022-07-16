@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Update </title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(background.png);
+            background-size: contain;
+        }
+
+        h2 {
+            margin: auto;
+            font-size: 40px;
+            font-family: sans-serif;
+            margin-top: 22px;
+            color: rgb(61, 220, 220);
+        }
+
+
+        .container {
+            max-width: 36%;
+            margin: 8% auto;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        form {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            /*   background: blue; */
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .first>input {
+            width: 80%;
+            border: 2px solid black;
+            border-radius: 6px;
+        }
+
+        input {
+            margin: 10px 16px;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+
+        .btn {
+            width: 30%;
+            padding: 6px;
+            margin: auto;
+            border-radius: 11px;
+            cursor: pointer;
+
+        }
+
+        .btn :hover {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <form method="post">
+            <h2> Teacher Update </h2>
+            <div class="first">
+                <input type="text" name="FirstName" class="FirstName" placeholder="First Name">
+                <input type="text" name="LastName" class="LastName" placeholder="Last Name">
+            </div>
+
+            <div class="second">
+                <input type="text" name="address" id="address" placeholder="Address">
+                <input type="email" name="Email" id="Email" placeholder="Email">
+                <input type="Phonenumber" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+                <input type="text" name="Qualification" id="qualification" placeholder="Qualification">
+                <input type="text" name="Department" id="department" placeholder="Department">
+                <button class="btn">Update</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
